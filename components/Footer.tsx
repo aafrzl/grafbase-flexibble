@@ -29,12 +29,12 @@ const Footer = () => {
       <div className="flex flex-col gap-12 w-full">
         <div className="flex items-start flex-col">
           <Image
-            src="/logo-purple.svg"
+            src="/yellow-logo.svg"
             width={115}
             height={38}
-            alt="Flexibble Logo"
+            alt="Fluxibble Logo"
           />
-          <p className="text-start text-sm font-normal mt-5 max-w-xs">Flexibble is a community of designers and developers sharing their</p>
+          <p className="text-start text-sm font-normal mt-5 max-w-xs">Fluxibble is a community of designers and developers sharing their</p>
         </div>
         <div className="flex flex-wrap gap-12">
           <FooterColumn
@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flexBetween footer_copyright">
-        <p>@{new Date().getFullYear()} Flexibble. All rights reserved.</p>
+        <p>@{new Date().getFullYear()} Fluxibble. All rights reserved.</p>
         <p className="text-gray">
           <span className="text-black font-semibold">10,214</span> Projects submitted
         </p>

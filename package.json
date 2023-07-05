@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@grafbase/sdk": "^0.0.25",
+    "encoding": "^0.1.13",
     "find-unused-exports": "^5.0.0"
   }
 }
